@@ -5,12 +5,12 @@ import localFont from "next/font/local";
 const fraunces = localFont({
   src: [
     {
-      path: "../../../public/product-preview-card-component/fonts/fraunces/Fraunces_72pt-Regular.ttf",
+      path: "../../../public/fonts/fraunces/Fraunces_72pt-Regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../../public/product-preview-card-component/fonts/fraunces/Fraunces_72pt-Bold.ttf",
+      path: "../../../public/fonts/fraunces/Fraunces_72pt-Bold.ttf",
       weight: "700",
       style: "normal",
     },
@@ -22,12 +22,12 @@ const fraunces = localFont({
 const montserrat = localFont({
   src: [
     {
-      path: "../../../public/product-preview-card-component/fonts/montserrat/Montserrat-Regular.ttf",
+      path: "../../../public/fonts/montserrat/Montserrat-Regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../../public/product-preview-card-component/fonts/montserrat/Montserrat-Bold.ttf",
+      path: "../../../public/fonts/montserrat/Montserrat-Bold.ttf",
       weight: "700",
       style: "normal",
     },
