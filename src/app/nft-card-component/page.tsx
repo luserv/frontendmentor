@@ -1,17 +1,20 @@
+import Image from "next/image";
+
+
 export default function nftCard() {
   return (
     <main className="w-screen h-screen bg-[hsl(217,54%,11%)] flex items-center justify-center p-4">
       <div className="w-[350px] bg-[hsl(216,50%,16%)] rounded-2xl p-6 shadow-xl">
         <div className="relative group cursor-pointer">
           <picture className="block w-full">
-            <img 
+            <Image 
               src="nft-card-component/img/image-equilibrium.jpg" 
               alt="image equilibrium" 
               className="w-full h-auto rounded-xl"
             />
           </picture>
           <div className="absolute inset-0 bg-cyan-400/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-            <img 
+            <Image 
               src="nft-card-component/img/icon-view.svg" 
               alt="view" 
               className="w-12 h-12"
@@ -29,7 +32,7 @@ export default function nftCard() {
           
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
-              <img 
+              <Image 
                 src="nft-card-component/img/icon-ethereum.svg" 
                 alt="ethereum svg" 
                 className="w-4 h-4"
@@ -37,7 +40,7 @@ export default function nftCard() {
               <span className="text-cyan-400 font-semibold">0.041 ETH</span>
             </div>
             <div className="flex items-center gap-2">
-              <img 
+              <Image 
                 src="nft-card-component/img/icon-clock.svg" 
                 alt="clock svg" 
                 className="w-4 h-4"
@@ -49,7 +52,7 @@ export default function nftCard() {
           <div className="pt-4 border-t border-[hsl(215,32%,27%)]">
             <div className="flex items-center gap-3">
               <picture>
-                <img 
+                <Image 
                   src="nft-card-component/img/image-avatar.png" 
                   alt="image avatar" 
                   className="w-8 h-8 rounded-full border border-white"

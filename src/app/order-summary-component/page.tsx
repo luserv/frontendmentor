@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { redHatDisplay } from "./layout";
+import { redHatDisplay } from "./fonts";
 
 export default function OrderSummaryComponent() {
   return (
@@ -7,7 +7,7 @@ export default function OrderSummaryComponent() {
 
       <Image 
             src="/order-summary-component/img/pattern-background-desktop.svg" 
-            alt="hero" 
+            alt="hero"
             width={1920}
             height={1080}
             className="absolute top-0 w-full h-auto hidden md:block"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function ProductPreviewCardComponent() {
   return (
@@ -5,14 +6,18 @@ export default function ProductPreviewCardComponent() {
       <div className="max-w-[600px] bg-white rounded-2xl overflow-hidden shadow-lg">
         <div className="md:flex">
           <div className="md:w-1/2">
-            <img 
-              src="product-preview-card-component/img/image-product-desktop.jpg" 
-              alt="chanel-destop" 
+            <Image 
+              src="/product-preview-card-component/img/image-product-desktop.jpg" 
+              alt="chanel-destop"
+              width={600}
+              height={900}
               className="hidden md:block w-full h-full object-cover"
             />
-            <img 
-              src="product-preview-card-component/img/image-product-mobile.jpg" 
-              alt="chanel-desktop" 
+            <Image 
+              src="/product-preview-card-component/img/image-product-mobile.jpg" 
+              alt="chanel-desktop"
+              width={686}
+              height={480} 
               className="md:hidden w-full h-64 object-cover"
             />
           </div>
@@ -40,9 +45,11 @@ export default function ProductPreviewCardComponent() {
               className="w-full bg-[hsl(158,36%,37%)] hover:bg-[hsl(158,36%,20%)] text-white font-semibold py-4 px-6 rounded-lg flex items-center justify-center gap-3 transition-colors duration-300"
               style={{ fontFamily: 'var(--font-montserrat)' }}
             >
-              <img 
+              <Image 
                 src="product-preview-card-component/img/icon-cart.svg" 
                 alt="icon card svg"
+                width={5}
+                height={5}
                 className="w-5 h-5"
               />
               Add to Cart
