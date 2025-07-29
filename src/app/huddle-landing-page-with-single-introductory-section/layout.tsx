@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { redHatDisplay } from "./fonts";
+import { Poppins } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "Order Summary Component",
-  description: "Order Summary Component",
+  title: "huddle-landing-page",
+  description: "huddle landing page with single introductory section",
 };
 
 export default function OrderSummaryComponentLayout({
@@ -12,7 +12,7 @@ export default function OrderSummaryComponentLayout({
     children: React.ReactNode;
   }) {
     return (
-      <div className={redHatDisplay.className}>
+      <div className={Poppins.className}>
         {children}
       </div>
     );

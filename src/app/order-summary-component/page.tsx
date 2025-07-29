@@ -1,9 +1,8 @@
 import Image from "next/image";
-import { redHatDisplay } from "./fonts";
 
 export default function OrderSummaryComponent() {
   return (
-    <main className={`min-h-screen bg-[hsl(225,100%,94%)] flex items-center justify-center p-4 ${redHatDisplay.className}`}>
+    <main className="min-h-screen bg-[hsl(225,100%,94%)] flex items-center justify-center p-4">
 
       <Image 
             src="/order-summary-component/img/pattern-background-desktop.svg" 
