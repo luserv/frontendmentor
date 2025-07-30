@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Poppins } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "huddle-landing-page",
-  description: "huddle landing page with single introductory section",
+  title: "fylo landing page",
+  description: "fylo landing page with two column layout",
 };
 
 export default function fyloLandingPage({
