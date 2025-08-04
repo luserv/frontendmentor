@@ -58,7 +58,7 @@ export default function FyloLandingPage() {
     <div className="relative bg-gray-50 min-w-full max-w-[1024px] pt-2">
       <header className="flex flex-row items-center justify-between py-0 px-2 md:px-26 md:pt-20 md:pt-0">
         <Image
-          src="/fylo-landing-page/img/logo.svg"
+          src="/junior/fylo-landing-page/img/logo.svg"
           alt="Fylo Logo"
           width={100}
           height={49}
@@ -116,7 +116,7 @@ export default function FyloLandingPage() {
 
           <div className="order-1 mt-30 px-4 md:order-2">
             <Image
-              src="/fylo-landing-page/img/illustration-1.svg"
+              src="/junior/fylo-landing-page/img/illustration-1.svg"
               alt="Illustration 1"
               width={400}
               height={300}
@@ -157,7 +157,7 @@ export default function FyloLandingPage() {
             </div>
             <div className="testimonial bg-white p-6 rounded-lg shadow mt-10 md:max-w-[500px]">
               <Image
-              src={"/fylo-landing-page/img/icon-quotes.svg"}
+              src={"/junior/fylo-landing-page/img/icon-quotes.svg"}
               alt="Quote Icon"
               width={24}
               height={24}
@@ -168,7 +168,7 @@ export default function FyloLandingPage() {
               </p>
               <div className="uno flex items-center mt-6">
                 <Image
-                  src="/fylo-landing-page/img/avatar-testimonial.jpg"
+                  src="/junior/fylo-landing-page/img/avatar-testimonial.jpg"
                   alt="Testimonial"
                   width={48}
                   height={48}
@@ -181,9 +181,9 @@ export default function FyloLandingPage() {
               </div>
             </div>
           </div>
-          <div className="order-1 md:order-2 md:max-w-[700px]">
+          <div className="order-1 mt-30 px-4 md:order-2">
             <Image
-              src="/fylo-landing-page/img/illustration-2.svg"
+              src="/junior/fylo-landing-page/img/illustration-2.svg"
               alt="Illustration 2"
               width={400}
               height={300}

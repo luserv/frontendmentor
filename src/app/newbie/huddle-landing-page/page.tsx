@@ -3,10 +3,10 @@ import { OpenSans } from "./fonts"
 
 export default function huddleLandingPage() {
   return (
-    <main className="min-h-screen w-screen bg-[hsl(257,40%,49%)] relative overflow-hidden">
+    <main className="min-h-screen w-screen bg-[hsl(257,40%,49%)] relative overflow-hidden font-poppins">
 
         <Image
-            src="/huddle-landing-page-with-single-introductory-section/img/bg-desktop.svg"
+            src="/newbie/huddle-landing-page-with-single-introductory-section/img/bg-desktop.svg"
             alt="Background Image"
             width={1020}
             height={1080}
@@ -14,7 +14,7 @@ export default function huddleLandingPage() {
             />
 
         <Image
-            src="/huddle-landing-page-with-single-introductory-section/img/bg-mobile.svg"
+            src="/newbie/huddle-landing-page-with-single-introductory-section/img/bg-mobile.svg"
             alt="Background Image"
             width={475}
             height={660}
@@ -24,7 +24,7 @@ export default function huddleLandingPage() {
         {/* Header with logo */}
         <header className="relative z-10 p-8">
           <Image 
-            src="/huddle-landing-page-with-single-introductory-section/img/logo.svg" 
+            src="/newbie/huddle-landing-page-with-single-introductory-section/img/logo.svg" 
             alt="Huddle logo"
             width={120}
             height={30}
@@ -41,7 +41,7 @@ export default function huddleLandingPage() {
               {/* Desktop mockup */}
               <div className="relative mb-4 lg:mb-8">
                 <Image
-                  src="/huddle-landing-page-with-single-introductory-section/img/illustration-mockups.svg" 
+                  src="/newbie/huddle-landing-page-with-single-introductory-section/img/illustration-mockups.svg" 
                   alt="Desktop and mobile mockups"
                   width={600}
                   height={400}

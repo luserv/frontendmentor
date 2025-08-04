@@ -8,8 +8,10 @@ export default function nftCard() {
         <div className="relative group cursor-pointer">
           <picture className="block w-full">
             <Image 
-              src="nft-card-component/img/image-equilibrium.jpg" 
-              alt="image equilibrium" 
+              src="/newbie/nft-card-component/img/image-equilibrium.jpg" 
+              alt="image equilibrium"
+              width={350}
+              height={350}
               className="w-full h-auto rounded-xl"
             />
           </picture>
@@ -17,6 +19,8 @@ export default function nftCard() {
             <Image 
               src="nft-card-component/img/icon-view.svg" 
               alt="view" 
+              width={48}
+              height={48}
               className="w-12 h-12"
             />
           </div>
@@ -33,16 +37,20 @@ export default function nftCard() {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
               <Image 
-                src="nft-card-component/img/icon-ethereum.svg" 
+                src="/newbie/nft-card-component/img/icon-ethereum.svg" 
                 alt="ethereum svg" 
+                width={48}
+                height={48}
                 className="w-4 h-4"
               />
               <span className="text-cyan-400 font-semibold">0.041 ETH</span>
             </div>
             <div className="flex items-center gap-2">
               <Image 
-                src="nft-card-component/img/icon-clock.svg" 
+                src="/newbie/nft-card-component/img/icon-clock.svg" 
                 alt="clock svg" 
+                width={48}
+                height={48}
                 className="w-4 h-4"
               />
               <span className="text-[hsl(215,51%,70%)]">3 days left</span>
@@ -53,8 +61,10 @@ export default function nftCard() {
             <div className="flex items-center gap-3">
               <picture>
                 <Image 
-                  src="nft-card-component/img/image-avatar.png" 
+                  src="/newbie/nft-card-component/img/image-avatar.png" 
                   alt="image avatar" 
+                  width={8}
+                  height={8}
                   className="w-8 h-8 rounded-full border border-white"
                 />
               </picture>

@@ -5,7 +5,7 @@ export default function OrderSummaryComponent() {
     <main className="min-h-screen bg-[hsl(225,100%,94%)] flex items-center justify-center p-4">
 
       <Image 
-            src="/order-summary-component/img/pattern-background-desktop.svg" 
+            src="order-summary-component/img/pattern-background-desktop.svg" 
             alt="hero"
             width={1920}
             height={1080}
@@ -14,7 +14,7 @@ export default function OrderSummaryComponent() {
 
           
       <Image 
-            src="/order-summary-component/img/pattern-background-mobile.svg" 
+            src="order-summary-component/img/pattern-background-mobile.svg" 
             alt="hero" 
             width={375}
             height={220}
@@ -24,7 +24,7 @@ export default function OrderSummaryComponent() {
       <div className="max-w-[450px] bg-white rounded-3xl shadow-2xl overflow-hidden">
         <div className="relative">
           <Image 
-            src="/order-summary-component/img/illustration-hero.svg" 
+            src="order-summary-component/img/illustration-hero.svg" 
             alt="hero" 
             width={450}
             height={220}
@@ -46,7 +46,7 @@ export default function OrderSummaryComponent() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <Image 
-                  src="/order-summary-component/img/icon-music.svg" 
+                  src="order-summary-component/img/icon-music.svg" 
                   alt="icon music"
                   width={48}
                   height={48}

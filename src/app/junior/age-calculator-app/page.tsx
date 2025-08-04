@@ -84,7 +84,7 @@ export default function AgeCalculatorApp() {
     <div className="bg-[hsl(0,0%,94%)] min-h-screen flex items-center justify-center font-['Poppins']">
       <main className="bg-white p-8 rounded-3xl rounded-br-[100px] max-w-lg w-full shadow-lg">
         <form onSubmit={handleSubmit} noValidate>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 font-extrabolditalic">
             <label htmlFor="day" className={`flex flex-col ${errors.day ? 'text-red-500' : 'text-gray-500'}`}>
               <span className="tracking-widest text-xs font-bold mb-1">DAY</span>
               <input type="number" id="day" placeholder="DD" value={day} onChange={(e) => setDay(e.target.value)} className={`p-3 border rounded-md w-24 text-black text-xl font-bold focus:outline-none focus:ring-2 ${errors.day ? 'border-red-500 focus:ring-red-500' : 'border-gray-300 focus:ring-purple-500'}`} />

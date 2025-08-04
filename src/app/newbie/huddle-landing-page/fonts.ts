@@ -3,12 +3,12 @@ import localFont from "next/font/local";
 export const Poppins = localFont({
   src: [
     {
-      path: "../../../public/fonts/Poppins/Poppins-Regular.ttf",
+      path: "../../../../public/fonts/Poppins/Poppins-Regular.ttf",
       weight: "500",
       style: "regular",
     },
     {
-      path: "../../../public/fonts/Poppins/Poppins-SemiBold.ttf",
+      path: "../../../../public/fonts/Poppins/Poppins-SemiBold.ttf",
       weight: "600",
       style: "semibold",
     },
@@ -20,7 +20,7 @@ export const Poppins = localFont({
 export const OpenSans = localFont({
   src: [
     {
-      path: "../../../public/fonts/Open_Sans/OpenSans-Regular.ttf",
+      path: "../../../../public/fonts/Open_Sans/OpenSans-Regular.ttf",
       weight: "400",
       style: "regular",
     },
