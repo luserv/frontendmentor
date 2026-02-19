@@ -1,0 +1,2 @@
+[3132:7364:0219/123332.669:INFO:electron\shell\app\electron_main_delegate.cc:572] #### AhaElectron (relauncher)  Startup #### cmd:  --no-sandbox
+[3132:7364:0219/123333.029:INFO:electron\shell\app\electron_main_delegate.cc:299] #### AhaElectron (relauncher)  Shutdown ####
