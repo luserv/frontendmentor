@@ -1,0 +1,101 @@
+[33mcommit fc10efb15ab8393a9e6da4924b85be6daddbb89f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: user <git.random422@passinbox.com>
+Date:   Thu Feb 19 12:39:45 2026 -0500
+
+    patching vulnerability, adding some design xdxd
+
+[33mcommit d9a6f44697e4c7713813e89056a6a468117a1853[m
+Author: user <git.random422@passinbox.com>
+Date:   Thu Feb 19 11:59:30 2026 -0500
+
+    update
+
+[33mcommit 5d65bb85971e84ec226a6a3bb91fc8686cc44f1c[m
+Author: user <git.random422@passinbox.com>
+Date:   Mon Aug 4 18:57:33 2025 -0500
+
+    reorder routes
+
+[33mcommit 0c5f8499b1f982c2361e0561e2eca1f4c99b2532[m
+Author: user <git.random422@passinbox.com>
+Date:   Sun Aug 3 18:36:38 2025 -0500
+
+    solving bulding issues in to-do app
+
+[33mcommit 75431b0c470863572ae51ab908978f54723df54a[m
+Author: user <git.random422@passinbox.com>
+Date:   Sun Aug 3 18:31:24 2025 -0500
+
+    to do app
+
+[33mcommit efe2dfcdd7bdc131eb048c196e9f1f57b7941575[m
+Author: user <git.random422@passinbox.com>
+Date:   Sat Aug 2 01:00:37 2025 -0500
+
+    age calculator app and some corrections on other routes
+
+[33mcommit 8e432359760818a50c6491512ed74bd34c7f2aea[m
+Author: user <git.random422@passinbox.com>
+Date:   Wed Jul 30 15:45:58 2025 -0500
+
+    interactive rating component
+
+[33mcommit d0ecdee3429b94ad1ffc4b75fc284f9b66ad41e1[m
+Author: user <git.random422@passinbox.com>
+Date:   Wed Jul 30 14:42:03 2025 -0500
+
+    fylo landing page
+
+[33mcommit f1d1bd4841c49a3e0d01f9a34663de8c37277af5[m
+Author: user <git.random422@passinbox.com>
+Date:   Mon Jul 28 21:12:45 2025 -0500
+
+    Analytics
+
+[33mcommit f0e5d825dbc849c524f44d24c07f22132c4f0525[m
+Author: user <git.random422@passinbox.com>
+Date:   Mon Jul 28 20:50:07 2025 -0500
+
+    SpeedInsights
+
+[33mcommit fca3157d596a8ca1b5d9f78315cb3ba78b638cc0[m
+Author: user <git.random422@passinbox.com>
+Date:   Mon Jul 28 19:26:50 2025 -0500
+
+    huddle landing page with sigle introductory section
+
+[33mcommit 5474940fa628099007bb523dcf1c8d6300f4b6ef[m
+Author: user <git.random422@passinbox.com>
+Date:   Mon Jul 28 12:48:31 2025 -0500
+
+    adding fonts config file
+
+[33mcommit cc21a7d46f49e990b9f1ca049d0f42457ef61e78[m
+Author: user <git.random422@passinbox.com>
+Date:   Mon Jul 28 11:56:25 2025 -0500
+
+    order-summary-component
+
+[33mcommit ff042acb0c678bed6be227d7fa39e6726d2945cb[m
+Author: user <git.random422@passinbox.com>
+Date:   Fri Jul 25 20:56:16 2025 -0500
+
+    product-preview-card-component
+
+[33mcommit ebea8d2d76b32c5a9c2b1727061d6fa9451cf895[m
+Author: user <git.random422@passinbox.com>
+Date:   Fri Jul 25 19:33:20 2025 -0500
+
+    nft-card-component
+
+[33mcommit 0dda52caea481267c490cb1ad27f9afb96e76a8a[m
+Author: user <git.random422@passinbox.com>
+Date:   Fri Jul 25 17:06:54 2025 -0500
+
+    qr-code-component
+
+[33mcommit c80956a1008962a8f880ffa4d73dd4d633444262[m
+Author: user <git.random422@passinbox.com>
+Date:   Fri Jul 25 15:31:50 2025 -0500
+
+    Initial commit from Create Next App
