@@ -23,7 +23,7 @@ La página de inicio está en `src/app/page.tsx`.
 
 ### Newbie
 - QR Code Component → `/newbie/qr-code-component`
-- NFT Preview Card Component → `/newbie/nft-preview-card-component`
+- NFT Preview Card Component → `/newbie/nft-card-component`
 - Huddle Landing Page → `/newbie/huddle-landing-page`
 - Interactive Rating Component → `/newbie/interactive-rating-component`
 - Order Summary Component → `/newbie/order-summary-component`
